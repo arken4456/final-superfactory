@@ -1,0 +1,107 @@
+# Base methods for greenhouse
+pm_basic_greenhouse = {
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            popneeds_fabric = 100
+            popneeds_services = 50
+        }
+        level_scaled = {
+            building_employment_farmers_add = 40000
+            building_employment_laborers_add = 10000
+        }
+    }
+}
+
+# Agricultural production methods
+pm_agriculture_tier1 = {
+    texture = "gfx/interface/icons/production_method_icons/fertilizer.dds"
+    
+    building_modifiers = {
+        level_scaled = {
+            # Basic food outputs
+            goods_output_grain_add = 10000
+            goods_output_fruit_add = 6000
+            goods_output_fish_add = 3000
+        }
+    }
+}
+
+pm_agriculture_tier2 = {
+    texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+    
+    unlocking_technologies = {
+        modern_agriculture
+    }
+    
+    building_modifiers = {
+        level_scaled = {
+            # Advanced food outputs
+            goods_output_grain_add = 1000
+            goods_output_fruit_add = 600
+            goods_output_fish_add = 300
+            goods_output_livestock_add = 6000
+            goods_output_sugar_add = 4000
+            goods_output_tea_add = 3000
+            goods_output_coffee_add = 3000
+            goods_output_opium_add = 3000
+            goods_output_silk_add = 3000
+            goods_output_tobacco_add = 3000
+            goods_output_rubber_add = 30000       
+        }
+    }
+}
+
+# Similar definitions for organic materials production methods...
+# Add to 02_super_greenhouse_methods.txt
+pm_organic_materials_tier1 = {
+    texture = "gfx/interface/icons/production_method_icons/crafts_workshops.dds"
+    
+    building_modifiers = {
+        level_scaled = {
+            goods_output_fabric_add = 5000
+            goods_output_wood_add = 7000
+        }
+    }
+}
+
+pm_organic_materials_tier2 = {
+    texture = "gfx/interface/icons/production_method_icons/textile_mills.dds"
+    
+    unlocking_technologies = {
+        modern_agriculture
+    }
+    
+    building_modifiers = {
+        level_scaled = {
+            goods_output_fabric_add = 15000
+            goods_output_wood_add = 20000
+            goods_output_dye_add = 10000
+        }
+    }
+}
+
+pm_fertilization_basic = {
+    texture = "gfx/interface/icons/production_method_icons/fertilizer.dds"
+    
+    building_modifiers = {
+        level_scaled = {
+            building_output_agriculture_add = 2
+        }
+    }
+}
+
+pm_fertilization_advanced = {
+    texture = "gfx/interface/icons/production_method_icons/electrical_irrigation.dds"
+    
+    unlocking_technologies = {
+        nitrogen_fixation
+    }
+    
+    building_modifiers = {
+        level_scaled = {
+            building_output_agriculture_add = 5
+        }
+    }
+}

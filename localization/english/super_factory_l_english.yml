@@ -1,0 +1,67 @@
+l_english:
+ # Building names and descriptions
+ building_super_factory:0 "Super Factory"
+ building_super_factory_desc:0 "A highly advanced industrial complex capable of producing numerous mineral and industrial resources simultaneously through specialized processing methods."
+ building_super_greenhouse:0 "Super Greenhouse"
+ building_super_greenhouse_desc:0 "An expansive climate-controlled agricultural facility that can cultivate a wide variety of crops and organic materials regardless of the local climate."
+ 
+ # Super Factory Production Methods
+ pm_basic_super_factory:0 "Basic Super Factory Operations"
+ pm_basic_super_factory_desc:0 "A standard factory operation using labor-intensive processes to produce goods."
+ 
+ pm_advanced_super_factory:0 "Advanced Super Factory Operations"
+ pm_advanced_super_factory_desc:0 "A modernized factory operation using electrical power and petroleum to achieve higher efficiency."
+ 
+ pm_mineral_production_tier1:0 "Basic Mineral Extraction"
+ pm_mineral_production_tier1_desc:0 "Simple mining and processing operations to extract common minerals from the earth."
+ 
+ pm_mineral_production_tier2:0 "Advanced Mineral Processing"
+ pm_mineral_production_tier2_desc:0 "Advanced hydraulic systems and chemical processes to extract a wider range of minerals more efficiently."
+ 
+ pm_mineral_production_tier3:0 "Complete Resource Synthesis"
+ pm_mineral_production_tier3_desc:0 "Cutting-edge extraction and synthetic processes to maximize mineral yield and diversity."
+ 
+ pm_industrial_materials_tier1:0 "Basic Materials Processing"
+ pm_industrial_materials_tier1_desc:0 "Production of basic industrial materials like steel and glass using conventional methods."
+ 
+ pm_industrial_materials_tier2:0 "Advanced Materials Synthesis"
+ pm_industrial_materials_tier2_desc:0 "Production of advanced materials including synthetic polymers and complex alloys."
+ 
+ pm_automation_basic:0 "Basic Mechanical Automation"
+ pm_automation_basic_desc:0 "Introduction of simple mechanical tools to reduce labor requirements and increase efficiency."
+ 
+ pm_automation_advanced:0 "Advanced Electrical Automation"
+ pm_automation_advanced_desc:0 "Implementation of electrical tools and semi-automated production lines to significantly reduce labor requirements."
+ 
+ # Super Greenhouse Production Methods
+ pm_basic_greenhouse:0 "Basic Greenhouse Operations"
+ pm_basic_greenhouse_desc:0 "A standard greenhouse operation using traditional farming methods under controlled climate conditions."
+ 
+ pm_agriculture_tier1:0 "Basic Crop Cultivation"
+ pm_agriculture_tier1_desc:0 "Cultivation of basic food crops using fertilizer and simple farming techniques."
+ 
+ pm_agriculture_tier2:0 "Advanced Agricultural Systems"
+ pm_agriculture_tier2_desc:0 "Modern farming systems using tractors and advanced techniques to cultivate a diverse range of crops and luxury goods."
+ 
+ pm_organic_materials_tier1:0 "Basic Organic Materials Production"
+ pm_organic_materials_tier1_desc:0 "Production of basic organic materials like fabric and wood using traditional methods."
+ 
+ pm_organic_materials_tier2:0 "Advanced Organic Materials Processing"
+ pm_organic_materials_tier2_desc:0 "Modern processing of organic materials to produce high-quality textiles, fine woods, and chemical dyes."
+ 
+ pm_fertilization_basic:0 "Basic Fertilization Methods"
+ pm_fertilization_basic_desc:0 "Simple fertilization techniques to improve crop yields."
+ 
+ pm_fertilization_advanced:0 "Advanced Fertilization Systems"
+ pm_fertilization_advanced_desc:0 "Modern nitrogen fixation and electrical irrigation systems to dramatically increase crop yields."
+ 
+ # Production Method Groups
+ pmg_base_building_super_factory:0 "Factory Operations"
+ pmg_mineral_production:0 "Mineral Production"
+ pmg_industrial_materials:0 "Industrial Materials"
+ pmg_automation_options:0 "Automation Systems"
+ 
+ pmg_base_building_super_greenhouse:0 "Greenhouse Operations"
+ pmg_agricultural_production:0 "Agricultural Production"
+ pmg_organic_materials:0 "Organic Materials"
+ pmg_fertilization_options:0 "Fertilization Systems"
