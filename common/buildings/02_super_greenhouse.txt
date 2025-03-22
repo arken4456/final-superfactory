@@ -21,6 +21,6 @@ building_super_greenhouse = {
     city_type = farm
     
     buildable = {
-        trigger = { is_building_type_expanded = building_super_greenhouse }
+    trigger = { always = yes }  # Always buildable
     }
 }

@@ -21,7 +21,7 @@ building_super_factory = {
     city_type = city
 
     # Buildable only in states, not provinces
-    buildable = {
-        trigger = { is_building_type_expanded = building_super_factory }
+   buildable = {
+    trigger = { always = yes }  # Always buildable
     }
 }
